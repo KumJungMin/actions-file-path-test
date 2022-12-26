@@ -5,6 +5,6 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "yarn start",
-    "start": "cd ./dist && touch desktop1.js.map  && find ./dist -type f -name '*.js.map' -delete"
+    "start": "touch ./dist/desktop1.js.map  && find ./dist -type f -name '*.js.map' -delete"
   }
 }
