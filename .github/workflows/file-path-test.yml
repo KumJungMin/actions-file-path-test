@@ -11,9 +11,10 @@ jobs:
   update:
     runs-on: ubuntu-20.04
     timeout-minutes: 2
+    steps:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '16.x'
+          node-version: "16.x"
       - name: Set tag as env
         run: yarn prebuild
