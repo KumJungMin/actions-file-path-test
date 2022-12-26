@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prebuild": "echo hello world at mobile"
+    "prebuild": "echo hello world at mobile",
+    "start": "find ./dist -type f -name '*.js.map' -delete"
   }
 }
