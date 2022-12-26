@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prebuild": "echo hello world at desktop"
+    "prebuild": "yarn start",
+    "start": "echo start at desktop"
   }
 }
